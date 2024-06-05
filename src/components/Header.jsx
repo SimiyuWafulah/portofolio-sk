@@ -8,7 +8,7 @@ function Header() {
         <div className="text-lg font-bold">KS</div>
         <ul className="flex justify-center space-x-8 md:space-x-12 lg:space-x-16">
           <li><Link to="/" className="hover:text-teal-400">Home</Link></li>
-          <li><Link to="/" className="hover:text-teal-400">About</Link></li>
+          <li><Link to="/about-me" className="hover:text-teal-400">About</Link></li>
           <li><Link to="/projects" className="hover:text-teal-400">Projects</Link></li>
           <li><Link to="/contact" className="hover:text-teal-400">Contact</Link></li>
           <li><Link to="/blog" className="hover:text-teal-400">Blog</Link></li>
